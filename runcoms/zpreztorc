@@ -29,7 +29,6 @@ zstyle ':prezto:load' pmodule \
   'editor' \
   'history' \
   'directory' \
-  'git' \
   'spectrum' \
   'utility' \
   'completion' \
@@ -155,4 +154,4 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 # zstyle ':prezto:module:tmux:auto-start' remote 'yes'
 
 # Integrate with iTerm2.
-zstyle ':prezto:module:tmux:iterm' integrate 'yes'
+# zstyle ':prezto:module:tmux:iterm' integrate 'yes'
