@@ -45,7 +45,7 @@ typeset -gU cdpath fpath mailpath path
 path=(
   /usr/local/{bin,sbin}
   /usr/local/munki
-  $HOME/Dropbox/Config/bin
+  /Users/grahamgilbert/Dropbox/Config/bin
   /usr/local/heroku/bin
   $path
 )
