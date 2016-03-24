@@ -54,7 +54,7 @@ function prompt_graham_setup {
   add-zsh-hook precmd prompt_graham_precmd
 
   # Set editor-info parameters.
-  zstyle ':prezto:module:editor:info:completing' format '%B%F{red}...%f%b'
+  zstyle ':prezto:module:editor:info:completing' format '%B%F{blue}...%f%b'
   zstyle ':prezto:module:editor:info:keymap:primary' format '%B%(?;%{%F{green}%} ;%{%F{red}%} )❯%f%b'
   zstyle ':prezto:module:editor:info:keymap:primary:overwrite' format ' %F{red}♺%f'
   zstyle ':prezto:module:editor:info:keymap:alternate' format ' %B%F{green}❮%F{yellow}❮%F{red}❮%f%b'

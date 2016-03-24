@@ -16,3 +16,7 @@ fi
 alias ls="ls -h"
 
 alias rake="noglob rake"
+
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+eval "$(thefuck --alias)"
