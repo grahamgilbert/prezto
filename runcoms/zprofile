@@ -43,10 +43,11 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  /usr/local/{bin,sbin}
+  $HOME/Dropbox/Config/bin
   /usr/local/munki
-  /Users/grahamgilbert/Dropbox/Config/bin
+  /opt/puppetlabs/bin
   /usr/local/heroku/bin
+  /usr/local/{bin,sbin}
   $path
 )
 
@@ -78,4 +79,12 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 
 # Vagrant
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
-export VAGRANT_VMWARE_CLONE_DIRECTORY=/Users/grahamgilbert/vagrant_vms
+export VAGRANT_VMWARE_CLONE_DIRECTORY=$HOME/vagrant_vms
+
+
+# CHEF
+export PATH="$PATH:/opt/chefdk/embedded/bin"
+export KNIFE_HOME=~/chef-repo/.chef
+
+# export GOPATH=$HOME/Dropbox/Config/go
+# export PATH=$PATH:$GOPATH/bin
