@@ -44,11 +44,11 @@ typeset -gU cdpath fpath mailpath path
 # Set the list of directories that Zsh searches for programs.
 path=(
   $HOME/Dropbox/Config/bin
-  /usr/local/munki
   /opt/puppetlabs/bin
   /usr/local/heroku/bin
   /usr/local/{bin,sbin}
   $path
+  /usr/local/munki
 )
 
 #
@@ -78,7 +78,7 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 # Vagrant
-export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+export VAGRANT_DEFAULT_PROVIDER=vmware_desktop
 export VAGRANT_VMWARE_CLONE_DIRECTORY=$HOME/vagrant_vms
 
 

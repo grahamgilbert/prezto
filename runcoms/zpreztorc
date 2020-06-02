@@ -25,12 +25,12 @@ zstyle ':prezto:*:*' color 'yes'
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
+  'git' \
   'terminal' \
   'editor' \
   'history' \
   'directory' \
   'spectrum' \
-  'git' \
   'utility' \
   'completion' \
   'history-substring-search' \
@@ -87,7 +87,8 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'graham'
+#zstyle ':prezto:module:prompt' theme 'graham'
+zstyle ':prezto:module:prompt' theme 'random'
 
 #
 # Ruby
